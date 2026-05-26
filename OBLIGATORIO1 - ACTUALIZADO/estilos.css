@@ -106,7 +106,6 @@ nav a {
     font-size: 1.2rem;
     margin: 0 15px 0 15px;
     font-weight: 700;
-    
 }
 
 nav a:hover {
@@ -179,7 +178,6 @@ nav a:hover {
     box-shadow: 0px 4px 10px var(--color-sombra-oscura);
 }
 
-
 .tarjetaForm h3 {
     font-size: 1.3em;
 }
@@ -249,7 +247,8 @@ nav a:hover {
     margin-top: 1em;
 }
 
-.btn:hover, .btn_form:hover {
+.btn:hover,
+.btn_form:hover {
     box-shadow: 0px 8px 20px var(--color-negro);
 }
 
@@ -276,22 +275,21 @@ nav a:hover {
     padding-bottom: 60px;
 }
 
-#article1{
+#article1 {
     background-color: var(--color-variante1);
 }
 
-#article3{
+#article3 {
     background-color: var(--color-variante2);
 }
 
-#article4{
+#article4 {
     background-color: var(--color-variante3);
 }
 
-#article5{
+#article5 {
     background-color: var(--color-variante4);
 }
-
 
 #grilla1 article:nth-of-type(4) {
     display: none;
@@ -339,7 +337,6 @@ nav a:hover {
     flex-direction: column;
     /* cambiar a row después */
     gap: 1rem;
-    align-items: left;
     margin-top: 1rem;
     box-shadow: 0px 4px 10px var(--color-sombra-oscura);
 }
@@ -532,17 +529,17 @@ footer h3 {
         position: relative;
     }
 
-  
+
 
     .bannerContenido h1 {
         font-size: 4em;
     }
 
-    .formCambiante{
+    .formCambiante {
         display: flex;
         flex-direction: column;
     }
-    
+
     .tarjetaForm {
         width: 30%;
         position: absolute;
@@ -552,28 +549,28 @@ footer h3 {
     #grilla1 {
         margin-top: 150px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
     }
 
-      #grilla1 article:nth-of-type(4){
-        grid-row: 1;  
+    #grilla1 article:nth-of-type(4) {
+        grid-row: 1;
     }
 
-    .sinImagen img{
+    .sinImagen img {
         display: block;
     }
 
-    #grilla2{
+    #grilla2 {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
         justify-content: center;
     }
-    
-    #grilla2 article{
+
+    #grilla2 article {
         grid-column: span 2;
     }
 
-    #grilla2 article:nth-of-type(4){
+    #grilla2 article:nth-of-type(4) {
         grid-column: 2 / span 2;
     }
 
@@ -581,7 +578,7 @@ footer h3 {
     #tituloG2 {
         grid-column: span 6;
     }
-   
+
     .banner {
         padding-top: 5.5rem;
         min-height: 80vh;
@@ -594,7 +591,10 @@ footer h3 {
         height: 100%;
         object-fit: cover;
         object-position: center;
-        
+    }
+
+    #grilla1 article h3 {
+        font-size: 1.5rem;
     }
 
 }
